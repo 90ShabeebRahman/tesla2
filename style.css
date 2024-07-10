@@ -1,0 +1,812 @@
+*{
+    
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:"M PLUS 1",sans-serif;
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+    width: 100%;  
+   
+
+}
+:root{
+    --font-color:rgb(76,75,75);
+    --font-weight:600;
+}
+
+
+
+.header {
+	height: 5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__middle {
+	display: flex;
+	align-items: end;
+    height: 30px;
+    margin: 7px 50px;
+    background-color: none;
+    list-style: none;
+    justify-content: end;
+    padding-left: 80%;
+    padding-top: 65%;
+    padding-right: 80%;
+	padding: 1px 290px;
+    font-weight: bold;
+    
+
+}
+
+.header__left {
+	display: block;
+	overflow: hidden;
+	padding: 2 4rem;
+	
+}
+.header__right
+{
+
+   
+    font-weight: 100px;
+	height: 12px;
+	width: auto;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    align-items: end;
+    justify-content: end; 
+    align-self: flex-end;
+	padding: 30px -1px;
+    
+}
+.header__right {
+    margin: auto 0;
+	margin-right: 0.5rem;
+    
+    flex: 3;
+    display: flex;
+}
+
+
+.header__nav__btn {
+        display: flex;
+        font-size: 10px;
+        font-weight: 400px;
+		font-stretch: expanded;
+		letter-spacing: 1px;
+        padding: 1rem;
+        padding: 8px;
+        color: var(--secondary-color);
+        border-radius: 1.5rem;
+        text-transform: capitalize;
+		text-decoration: none;
+        transition: background 0.3s linear;
+        justify-content: space-between;
+		color: black;
+
+
+
+}
+
+    .header__logo {
+        width: 110px;
+    height: 14px;
+    margin: 20px 52px;
+    }
+
+
+.header__nav__btn:hover {
+	background: #0000001c;
+}
+
+.header__nav__btn.menu__btn {
+	display: inline-block;
+}
+
+
+.header__middle .header__nav__btn {
+	margin-right: 54px;
+}
+
+
+
+
+
+
+.image1
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image1headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image1headercontainer>.image1header
+{
+    font-size: 2.5rem;
+    color: black;
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image1headercontainer>.image1para
+{
+    color: black;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.image1headercontainer>h3>a{
+    color: black;
+    font-size: 1.15rem;
+
+}
+.button{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button>a
+{
+    margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    background-color: white;
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+   
+}
+.btn2{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.image1headercontainer>.buttons1
+{
+    margin-top: 45vh;
+
+}
+
+
+
+
+
+.image2
+{
+    
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image2headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image2headercontainer>.image2header
+{
+    font-size: 2.5rem;
+    color: black;
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image2headercontainer>.image2para
+{
+    color: black;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size:  1.15rem;
+}
+.image2headercontainer>h3>a{
+    color: black;
+    font-size: 1rem;
+
+}
+.button2{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button2>a
+{
+    margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn21{
+    background-color: white;
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn22{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.image3
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image3headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image3headercontainer>.image3header
+{
+    font-size: 2.5rem;
+    color: black;
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image3headercontainer>.image3para
+{
+    color: black;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+}
+.image3headercontainer>h3>a{
+    color: black;
+    font-size: 1rem;
+
+}
+.button3{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button3>a
+{
+    margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn31{
+    background-color: white;
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn32{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+
+.image4
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image4headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image4headercontainer>.image4header
+{
+    font-size: 2.5rem;
+    color: black;
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image4headercontainer>.image4para
+{
+    color: black;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+}
+.image4headercontainer>h3>a{
+    color: black;
+    font-size: 1rem;
+
+}
+.button4{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button4>a
+{
+    margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn41{
+    background-color: white;
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn42{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+.image5
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.image5headercontainer>a{
+    color: black;
+    font-size: 1rem;
+
+}
+.button5{
+    display:flex;
+    justify-content: center;
+    margin: -363px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button5>a
+{ margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn51{
+    background-color: white;
+    color: rgb(63, 60, 60);
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+.btn52{
+    background-color: rgb(25, 24, 24);
+    color: rgb(63, 60, 60);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.cyberlogoin
+{
+    width: 448px;
+    height: 125px;
+    margin: 13px 59px;
+    display: block;
+    overflow: hidden;
+    padding: 59px 31rem;
+}
+
+.image6
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image6headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image6headercontainer>.image6header
+{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image6headercontainer>.image6para
+{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+}
+.image6headercontainer>h3>a{
+    color: black;
+    font-size: 1rem;
+
+}
+.button6{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button6>a
+{
+    margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn61{
+    background-color: white;
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn62{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+
+
+.image7
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image7headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image7headercontainer>.image7header
+{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image7headercontainer>.image7para
+{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+}
+.image7headercontainer>h3>a{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+.button7{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button7>a
+{
+    margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn71{
+    background-color: white;
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn72{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+.image8
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image8headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image8headercontainer>.image8header
+{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image8headercontainer>.image8para
+{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+}
+.image8headercontainer>h3>a{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+.button8{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button8>a
+{
+    margin: 759px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn81{
+    background-color: white;
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn82{
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+
+.image9
+{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+}
+.image9headercontainer
+{
+    height: 100vh;
+    width:100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+   
+}
+
+.image9headercontainer>.image9header
+{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-family:"M PLUS 1",sans-serif;
+    font-stretch: expanded;
+    opacity: 1;
+
+}
+.image9headercontainer>.image9para
+{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+}
+.image9headercontainer>h3>a{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+.button9{
+    display:flex;
+    justify-content: center;
+    margin: -338px;
+    box-sizing: 160px;
+    margin-left: 1.69px;
+}
+.button9>a
+{
+    margin: 835px 31px;
+    height: 40px;
+    width:15rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.btn91{
+    background-color: white;
+    color: rgb(42, 41, 41);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.footerhead{
+    background-color: black;
+    height: 700px;
+    width: auto;
+
+}
+
+.footer
+{
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+footer ol{
+    width:100%;
+    text-align: center;
+  
+}
+.footer ol li{
+    margin: 1 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+
+}
+.footer ol li a{
+    color:rgb(255, 255, 255);
+    font-size: 0.6rem;
+    
+}
+.footer ul{
+    width: 50%;
+    margin:2rem auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    list-style-type: none;
+
+}
+.footer ul li{
+    margin: 1 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+
+}
+.footer ul li a{
+    color:rgb(255, 255, 255);
+    font-size: 0.5rem;
+    text-decoration: none;
+}
+.supc{
+    color: aliceblue;
+    font-size: 0.4rem;
+}
